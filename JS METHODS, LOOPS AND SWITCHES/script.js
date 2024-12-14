@@ -12,7 +12,7 @@ document.write("<br>");
 document.write(result);
 
 document.write("<br>");
-for(var i = 1; i <= 100; i = i + 1) {
+for(var i = 2; i <= 500; i = i + 2) {
     document.write(i);
     document.write(" ");
 }
@@ -48,3 +48,7 @@ switch(today) {
         display_day = "Invalid day";
 }
 document.write(display_day);
+
+document.write("<br><br>");
+var date = new Date();
+document.write("Today's date is " +date.getDate());
